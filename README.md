@@ -1,5 +1,5 @@
 # AsmOs
-A theoretical language with the flexibility and dev looseness of JS, specificity of C# and clarity and brevity of... AsmOS?
+A theoretical language with the flexibility and dev looseness of JS, specificity of C# and clarity and brevity and syntactical universality of... AsmOS?
 Oh, and performance of C/asm, for a good measure, since the syntax tree of a program should be compilable to directly
 runnable machine code just by reading and appending leaf values (hex codes/instructions of tokens)
 
