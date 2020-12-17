@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryPrototypeEmulator", "MemoryPrototypeEmulator\MemoryPrototypeEmulator.csproj", "{A892BE46-64E7-4A29-A829-37FC23FC5B25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPUEmulatorKISS", "CPUEmulatorKISS\CPUEmulatorKISS.csproj", "{8716867F-42A1-4E51-9194-67B3FC9464CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A892BE46-64E7-4A29-A829-37FC23FC5B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A892BE46-64E7-4A29-A829-37FC23FC5B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A892BE46-64E7-4A29-A829-37FC23FC5B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A892BE46-64E7-4A29-A829-37FC23FC5B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8716867F-42A1-4E51-9194-67B3FC9464CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8716867F-42A1-4E51-9194-67B3FC9464CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8716867F-42A1-4E51-9194-67B3FC9464CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8716867F-42A1-4E51-9194-67B3FC9464CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {968495C8-5DD4-4446-9630-78941A99DCE8}
+	EndGlobalSection
+EndGlobal
