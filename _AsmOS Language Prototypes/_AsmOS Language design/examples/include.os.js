@@ -1,6 +1,9 @@
 /* up-to-date-for: 2020-12-17 */
 
-main {
+{ //unnamed block at the root of the file is that file's main: gets 
+// executed when that file is loaded upon program execution
+// serves as the program entrypoint in main.os of the program
+// serves as the scope/namespace initializer everywhere else
     inc fibonacciProgram = "fibonacci.os.js"; //assign the include into a variable if we want to be able to run the whole program
     inc "fibonacci.os.js"; //ignore the main program, just include the public namespaces from the file
 
