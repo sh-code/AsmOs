@@ -1,0 +1,24 @@
+
+whatevs = someBunch.any((i)=>{i}); //since besides return we can do the "val of last block line is return val" thing, this returns someBunch
+//sequence since it maps every item of source to the same item of destination
+
+//takes bool condition and returns sequencde of elements that satisfy that condition.
+
+// we doin' our own terminology, so let's just make a "bunch"
+
+// "bunch" is an ordered set of values and/or props=values. basically an OrderedList<TP<TS1, TS2>> which can castdown to Dictionary<TS1, TS2>, which casts down
+// to listarray of TP<T1, T2> where you do
+Tres filterFunction(Tsource i){};
+.first(filterFunction);
+.all(filterFunction);
+.last(filterFunction);
+.none(filterFunction);
+Tres conversionFunction(Tsource i){};
+.to(conversionFunction);
+
+someBunch = [
+    new Source(.food, regenPerSec= 20, maxVal= 2000, description= "Bushes"); //
+    new Source(.water, 20, 2000, "River");
+]
+
+str[] niceConsoleString = someBunch.to((Source s)=>"name: " + s.name + "\n");

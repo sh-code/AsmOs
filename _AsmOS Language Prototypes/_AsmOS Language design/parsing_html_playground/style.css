@@ -1,0 +1,19 @@
+span {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid gray;
+    white-space: pre;
+    vertical-align: top;
+}
+
+span::before {
+    content: attr(type);
+    position: relative;
+    font-size: 75%;
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+    background-color: darkslategray;
+    top: -15px;
+    display: inline-block;
+}

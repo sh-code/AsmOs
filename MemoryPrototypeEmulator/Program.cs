@@ -59,7 +59,7 @@ namespace MemoryPrototypeEmulator
             switch (instructionRegister[0])
             {
                 case 0:
-                    mem.Tick(0, 0,  )
+                    //mem.Tick(0, 0,  )
                 break;
             }
         }

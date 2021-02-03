@@ -12,7 +12,7 @@ namespace CSharpExpressionBuilder
 
         static void Main(string[] args)
         {
-            loop.Body.;
+            //loop.Body.;
         }
     }
 }

@@ -64,4 +64,14 @@ main { //example usage
     
     root.childen[0].children[maxId]; //would return the img. .maxId is array prop giving the id of the last element
     root.children.append(node(div, node("another div"))); 
+
+    //hey how about also I can instantiate blocks by running new on their names which will copy (re-execute) their declaration instruction?
+    //like...
+    os.dom.node.position nodePos = new os.dom.node.position; //no new, no constructor params, no paramless constructor run, just copy the declaration data(?)
+    //as opposed to
+    os.dom.node newNode = new os.dom.node(eTag.str);
+    //which calls new as a function
+    //...really, both execute code. the difference is second
+    //case can take parameters and is how you normally instantiate
+    //the first case is more like "whatever this datastructure is, grab it for me so I can muck around in it"
 }
