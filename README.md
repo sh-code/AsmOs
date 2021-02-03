@@ -3,7 +3,9 @@ A theoretical language with the flexibility and dev looseness of JS, specificity
 Oh, and native-ness of C/asm, for a good measure, since the syntax tree of a program should be compilable to directly
 runnable machine code just by reading and appending leaf values (hex codes/instructions of tokens)
 
-(Might or might not require the development of new-paradigm CPU/GPU and RAM. mainly RAM.
+(Might or might not require the development of new-paradigm CPU/GPU and RAM. mainly RAM. But that's the very last step)
+
+[Link to youtube playlist of lectures serving as inspirations](https://www.youtube.com/watch?v=8JOD1AQGqEg&list=PL48i-JtES9DPwPpvD5SIRoJtedCo6cHmA&index=2)
 
 This repo is to store my experiments and thoughts on the way of making this into maybe a thing at least in an interpreted/vm way.
 
